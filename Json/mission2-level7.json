@@ -1,0 +1,36 @@
+{
+  "_id": 1129,
+  "tiles": "0,0,0,0,0,0,0;0,02,01,01,01,02,0;0,02,01,02,01,02,0;0,01,01,0,01,01,0;0,01,02,04,02,01,0;0,02,0,0,0,02,0;0,0,0,0,0,0,0",
+  "posPlayer": {
+    "x": 3,
+    "y": 0
+  },
+  "hammer": true,
+  "published": true,
+  "dimension": {
+    "cols": 7,
+    "rows": 7
+  },
+  "nextLevel": "1.24",
+  "__v": 4,
+  "name": "level 23",
+  "solutions": {
+    "medium": 14,
+    "best": 10
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "trigger": "",
+      "cell": {
+        "y": 4,
+        "x": 3
+      },
+      "type": "reachCell"
+    },
+    {
+      "image": "http://www.bomberbot.com/hints/1129.png",
+      "type": "hints"
+    }
+  ]
+}

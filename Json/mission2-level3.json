@@ -1,0 +1,132 @@
+{
+  "_id": 2104,
+  "name": "sample-2104",
+  "description": "Solve the maze",
+  "tiles": "ac,ac,a,ac,ac;ac,a,a4,a4,ac;a,a4,a3,a4,a;ac,a,a4,a,ac;ac,ac,a4,ac,ac",
+  "posPlayer": {
+    "y": 2,
+    "x": 0
+  },
+  "controls": true,
+  "hammer": true,
+  "loops": false,
+  "programType": "simple",
+  "directions": false,
+  "conditions": false,
+  "published": true,
+  "dimension": {
+    "cols": 5,
+    "rows": 5
+  },
+  "nextLevel": "random",
+  "__v": 8,
+  "solutions": {
+    "medium": 12,
+    "best": 9
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 2,
+        "x": 1
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 1,
+        "x": 2
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 2,
+        "x": 3
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 3,
+        "x": 2
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 4,
+        "x": 2
+      },
+      "type": "reachCell"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 2,
+        "x": 2
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 3,
+        "y": 1
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "image": "http://www.bomberbot.com/hints/2104.png",
+      "type": "hints"
+    },
+    {
+      "messages": [
+        {
+          "message": {
+            "es": "Need help to make the best program? Click HINT.",
+            "fi": "Saadaksesi tehtävästä 3 tähteä, sinun täytyy löytää lyhin mahdollinen reitti. Jos tarvitset apua, klikkaa 'Vihje'.",
+            "en": "To get 3 stars, you need to find a solution with the least number of steps. Need help to make the best program? Click HINT.",
+            "nl": "Hulp nodig bij het vinden van de beste oplossing? Klik op HINT."
+          },
+          "character": {
+            "avatar": "/img/robots/bot_0_face.png",
+            "name": "Andrew"
+          }
+        }
+      ],
+      "trigger": "showMessage",
+      "type": "intro"
+    }
+  ]
+}

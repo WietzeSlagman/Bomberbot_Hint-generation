@@ -1,0 +1,188 @@
+{
+  "_id": 2114,
+  "name": "sample-2114",
+  "description": "Solve the maze",
+  "cover_image": "/assets/img/small_web_editor_pick.jpg",
+  "tiles": "a,a,a,a3,a4,a4,a4;a4,ac,ac,a4,ac,ac,a4;a4,ac,ac,a4,ac,ac,a4;a3,a4,a4,a3,a,a,a",
+  "posPlayer": {
+    "y": 0,
+    "x": 0
+  },
+  "controls": true,
+  "hammer": true,
+  "loops": false,
+  "programType": "simple",
+  "directions": false,
+  "conditions": false,
+  "published": true,
+  "dimension": {
+    "cols": 7,
+    "rows": 4
+  },
+  "nextLevel": "random",
+  "user": "54bdfb3fa520548e7722bea7",
+  "__v": 1,
+  "solutions": {
+    "medium": 20,
+    "best": 17
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 1,
+        "x": 0
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 2,
+        "x": 0
+      },
+      "type": "reachCell"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 3,
+        "x": 0
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 3,
+        "x": 1
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 3,
+        "x": 2
+      },
+      "type": "reachCell"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 3,
+        "x": 3
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 2,
+        "x": 3
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 1,
+        "x": 3
+      },
+      "type": "reachCell"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 0,
+        "x": 3
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 0,
+        "x": 4
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 0,
+        "x": 5
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 1,
+        "x": 6
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 2,
+        "x": 6
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 0,
+        "x": 6
+      },
+      "type": "reachCell"
+    }
+  ]
+}

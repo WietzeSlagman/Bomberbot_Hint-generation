@@ -1,0 +1,33 @@
+{
+  "_id": 1120,
+  "tiles": "0,01,01,0,0;01,02,0,0,0;0,02,0,02,0;0,02,0,02,0;0,0,0,02,01;0,0,01,01,04",
+  "posPlayer": {
+    "x": 0,
+    "y": 0
+  },
+  "hammer": true,
+  "published": true,
+  "dimension": {
+    "cols": 5,
+    "rows": 6
+  },
+  "nextLevel": "1.15",
+  "__v": 13,
+  "description": "The L",
+  "name": "level 14",
+  "solutions": {
+    "medium": 18,
+    "best": 12
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "trigger": "endLevel",
+      "cell": {
+        "y": "5",
+        "x": "4"
+      },
+      "type": "reachCell"
+    }
+  ]
+}

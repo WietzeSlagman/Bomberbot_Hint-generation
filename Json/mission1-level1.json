@@ -1,0 +1,63 @@
+{
+  "_id": 1107,
+  "published": true,
+  "__v": 18,
+  "conditions": false,
+  "controls": true,
+  "crud": true,
+  "dimension": {
+    "cols": 1,
+    "rows": 4
+  },
+  "dirPlayer": "down",
+  "directions": false,
+  "hammer": false,
+  "loops": false,
+  "magic": false,
+  "name": "level 2",
+  "nextLevel": "random",
+  "posPlayer": {
+    "y": 0,
+    "x": 0
+  },
+  "programType": "simple",
+  "tiles": "0;0;0;04",
+  "solutions": {
+    "medium": 5,
+    "best": 3
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "messages": [
+        {
+          "message": {
+            "es": "Hi Human! I'm Andrew, the robot trainer. Help Bomberbot catch the star by clicking on @down three times!",
+            "en": "Hi Human! I'm Andrew, the robot trainer. Help Bomberbot catch the star by clicking on @down three times!",
+            "nl": "Hallo mens! Ik ben Andrew de robottrainer. Help Bomberbot om de ster te pakken door drie keer op @down te klikken.",
+            "fi": "Hei Ihminen! Olen Andrew, robotinkouluttaja. Auta Bomberbotia keräämään tähdet painamalla @down kolme kertaa!"
+          },
+          "character": {
+            "avatar": "/img/robots/bot_0_face.png",
+            "name": "Andrew"
+          }
+        }
+      ],
+      "trigger": "showMessage",
+      "autoOpen": true,
+      "type": "intro"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 3,
+        "x": 0
+      },
+      "type": "reachCell"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "_id": 1312,
+  "name": "world 2.3",
+  "tiles": "ab,ab,ab,ab,ab,ab,ab;ab,ab,ab,ab,ac,ac,ac;ab,ab,ac,ac,a,a,a4;ac,ac,a,a,a,ac,ac;a,a,a,ac,ac,ab,ab;a,ac,ac,ab,ab,ab,ab",
+  "posPlayer": {
+    "y": 5,
+    "x": 0
+  },
+  "hammer": false,
+  "loops": true,
+  "published": true,
+  "dimension": {
+    "cols": 7,
+    "rows": 6
+  },
+  "nextLevel": "2.04",
+  "__v": 5,
+  "solutions": {
+    "medium": 9,
+    "best": 5
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 6,
+        "y": 2
+      },
+      "trigger": "endLevel"
+    },
+    {
+      "image": "http://www.bomberbot.com/hints/1312.png",
+      "type": "hints"
+    }
+  ]
+}

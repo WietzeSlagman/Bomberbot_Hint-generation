@@ -1,0 +1,141 @@
+{
+  "_id": 6807,
+  "name": "sample-6807",
+  "description": "Solve the maze",
+  "tiles": "a,a3,a3,a3,a3,a3,a3;a,02,02,02,02,02,02;a,a4,a4,a4,a4,a4,a;a,a,a,a,a,a2,a;a,a,a,a,a,a2,a;a,a,a,a,a,a2,a",
+  "posPlayer": {
+    "y": 5,
+    "x": 6
+  },
+  "dirPlayer": "down",
+  "controls": true,
+  "hammer": true,
+  "magic": false,
+  "crud": true,
+  "loops": true,
+  "programType": "simple",
+  "directions": false,
+  "conditions": false,
+  "published": true,
+  "dimension": {
+    "cols": 7,
+    "rows": 6
+  },
+  "nextLevel": "random",
+  "__v": 6,
+  "solutions": {
+    "medium": 16,
+    "best": 12
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 5,
+        "y": 2
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 4,
+        "y": 2
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 3,
+        "y": 2
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 2,
+        "y": 2
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 1,
+        "y": 2
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 0,
+        "x": 1
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 0,
+        "x": 2
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 0,
+        "x": 3
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 0,
+        "x": 4
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 0,
+        "x": 5
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 0,
+        "x": 6
+      },
+      "type": "objectDestroyed"
+    }
+  ]
+}

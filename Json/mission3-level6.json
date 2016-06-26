@@ -1,0 +1,74 @@
+{
+  "_id": 1314,
+  "name": "world 2.5",
+  "tiles": "a,a3,a3,a3,a3,a3,a3",
+  "posPlayer": {
+    "y": 0,
+    "x": 0
+  },
+  "hammer": true,
+  "loops": true,
+  "published": true,
+  "dimension": {
+    "cols": 7,
+    "rows": 1
+  },
+  "nextLevel": "2.06",
+  "__v": 1,
+  "dirPlayer": "right",
+  "solutions": {
+    "medium": 12,
+    "best": 4
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "type": "objectDestroyed",
+      "cell": {
+        "x": 1,
+        "y": 0
+      },
+      "trigger": ""
+    },
+    {
+      "type": "objectDestroyed",
+      "cell": {
+        "x": 2,
+        "y": 0
+      },
+      "trigger": ""
+    },
+    {
+      "type": "objectDestroyed",
+      "cell": {
+        "x": 3,
+        "y": 0
+      },
+      "trigger": ""
+    },
+    {
+      "type": "objectDestroyed",
+      "cell": {
+        "x": 4,
+        "y": 0
+      },
+      "trigger": ""
+    },
+    {
+      "type": "objectDestroyed",
+      "cell": {
+        "x": 5,
+        "y": 0
+      },
+      "trigger": ""
+    },
+    {
+      "type": "objectDestroyed",
+      "cell": {
+        "x": 6,
+        "y": 0
+      },
+      "trigger": ""
+    }
+  ]
+}

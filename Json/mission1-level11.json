@@ -1,0 +1,100 @@
+{
+  "_id": 6768,
+  "name": "sample-6768",
+  "description": "Solve the maze",
+  "tiles": "0,03,03,03,03,03,03",
+  "posPlayer": {
+    "x": 0,
+    "y": 0
+  },
+  "dirPlayer": "right",
+  "controls": true,
+  "hammer": true,
+  "magic": false,
+  "crud": true,
+  "loops": false,
+  "programType": "simple",
+  "directions": false,
+  "conditions": false,
+  "published": true,
+  "dimension": {
+    "cols": 7,
+    "rows": 1
+  },
+  "nextLevel": "random",
+  "__v": 5,
+  "solutions": {
+    "medium": 14,
+    "best": 11
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "trigger": "",
+      "cell": {
+        "y": 0,
+        "x": 1
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 0,
+        "x": 2
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 0,
+        "x": 3
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 0,
+        "x": 4
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 0,
+        "x": 6
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 0,
+        "x": 5
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "messages": [
+        {
+          "character": {
+            "name": "Andrew",
+            "avatar": "/img/robots/bot_0_face.png"
+          },
+          "message": {
+            "es": "If you need my help in the next levels, click on 'HELP'!",
+            "fi": "Jos tarvitset jatkossa apuani, klikkaa vain 'HELP'.",
+            "nl": "Als je in de volgende levels mijn hulp nog nodig hebt, klik dan op 'HELPEN'!",
+            "en": "If you need my help in the next levels, click on 'HELP'!"
+          }
+        }
+      ],
+      "type": "intro",
+      "autoOpen": true,
+      "trigger": "showMessage"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "_id": 50454,
+  "name": "sample-50444",
+  "description": "Solve the maze",
+  "cover_image": "/assets/img/small_web_editor_pick.jpg",
+  "tiles": "0,0,0,0,0;0,0,0,0,0;0,0,03,0,0;0,0,0,0,0;0,0,0,0,03",
+  "posPlayer": {
+    "x": 0,
+    "y": 0
+  },
+  "dirPlayer": "down",
+  "controls": true,
+  "hammer": true,
+  "magic": false,
+  "crud": true,
+  "loops": true,
+  "programType": "simple",
+  "directions": true,
+  "conditions": true,
+  "published": true,
+  "dimension": {
+    "cols": 5,
+    "rows": 5
+  },
+  "nextLevel": "random",
+  "__v": 0,
+  "solutions": {
+    "medium": 12,
+    "best": 9
+  },
+  "functions": 2,
+  "rules": [
+    {
+      "type": "objectDestroyed",
+      "cell": {
+        "x": 4,
+        "y": 4
+      },
+      "trigger": ""
+    },
+    {
+      "type": "objectDestroyed",
+      "cell": {
+        "x": 2,
+        "y": 2
+      },
+      "trigger": ""
+    }
+  ]
+}

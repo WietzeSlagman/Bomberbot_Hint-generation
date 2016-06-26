@@ -1,0 +1,51 @@
+{
+  "_id": 1116,
+  "tiles": "06,0,0,01,0,0,0;01,02,0,02,0,02,0;0,0,0,0,0,01,0;0,02,01,02,01,02,0;0,01,0,0,0,0,0;0,02,0,02,0,02,01;0,0,0,01,0,0,0",
+  "posPlayer": {
+    "x": 6,
+    "y": 6
+  },
+  "published": true,
+  "dimension": {
+    "cols": 7,
+    "rows": 7
+  },
+  "nextLevel": "1.11",
+  "__v": 11,
+  "description": "go for the hammer!",
+  "name": "level 10",
+  "solutions": {
+    "medium": 26,
+    "best": 20
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "trigger": "endLevel",
+      "cell": {
+        "y": "0",
+        "x": "0"
+      },
+      "type": "reachCell"
+    },
+    {
+      "messages": [
+        {
+          "message": {
+            "fi": "Katso! Peliin on ilmestynyt vasara. Kerää se talteen ja saat käyttöösi uuden ohjelmointitaidon!",
+            "en": "Look! There is a hammer in the corner.  Go for it and gain a new power!",
+            "nl": "Kijk: een hamer! Pak hem en krijg een nieuwe kracht!",
+            "es": "Mira hay un martillo en la esquina. Eso es lo que te he estado diciendo. Ve por él y gana un nuevo poder."
+          },
+          "character": {
+            "avatar": "/img/robots/bot_0_face.png",
+            "name": "Andrew"
+          }
+        }
+      ],
+      "trigger": "showMessage",
+      "autoOpen": true,
+      "type": "intro"
+    }
+  ]
+}

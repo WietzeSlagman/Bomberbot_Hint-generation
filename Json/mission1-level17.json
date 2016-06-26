@@ -1,0 +1,31 @@
+{
+  "_id": 1114,
+  "tiles": "0,01,01,0,01;0,0,01,0,0;01,0,0,01,01;01,01,0,0,01;0,0,01,0,04;01,0,01,01,0",
+  "posPlayer": {
+    "x": 0,
+    "y": 0
+  },
+  "published": true,
+  "dimension": {
+    "cols": 5,
+    "rows": 6
+  },
+  "nextLevel": "1.09",
+  "__v": 6,
+  "name": "level 08",
+  "solutions": {
+    "medium": 12,
+    "best": 8
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": "4",
+        "y": "4"
+      },
+      "trigger": "endLevel"
+    }
+  ]
+}

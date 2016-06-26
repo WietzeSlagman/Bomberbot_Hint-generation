@@ -1,0 +1,40 @@
+{
+  "_id": 1126,
+  "tiles": "04,0,0,0;02,02,01,0;0,0,0,0;0,01,02,02;03,0,0,0",
+  "posPlayer": {
+    "x": 3,
+    "y": 4
+  },
+  "hammer": true,
+  "published": true,
+  "dimension": {
+    "cols": 4,
+    "rows": 5
+  },
+  "nextLevel": "1.21",
+  "__v": 9,
+  "name": "level 20",
+  "solutions": {
+    "medium": 18,
+    "best": 14
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": "0",
+        "y": "0"
+      },
+      "trigger": ""
+    },
+    {
+      "type": "objectDestroyed",
+      "cell": {
+        "x": "0",
+        "y": "4"
+      },
+      "trigger": ""
+    }
+  ]
+}

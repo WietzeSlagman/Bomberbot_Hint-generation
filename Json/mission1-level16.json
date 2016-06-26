@@ -1,0 +1,34 @@
+{
+  "_id": 1112,
+  "tiles": "0,0,0,0;0,02,02,0;0,02,0,0;0,02,04,02",
+  "posPlayer": {
+    "y": 3,
+    "x": 0
+  },
+  "published": true,
+  "dimension": {
+    "cols": 4,
+    "rows": 4
+  },
+  "nextLevel": "1.07",
+  "__v": 6,
+  "solutions": {
+    "medium": 14,
+    "best": 10
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 3,
+        "x": 2
+      },
+      "type": "reachCell"
+    }
+  ]
+}

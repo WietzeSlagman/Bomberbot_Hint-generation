@@ -1,0 +1,111 @@
+{
+  "_id": 1324,
+  "name": "world 2.14",
+  "tiles": "a,a4,a4;a4,a,a4;a4,a4,a4",
+  "posPlayer": {
+    "y": 0,
+    "x": 0
+  },
+  "controls": true,
+  "hammer": false,
+  "loops": false,
+  "directions": false,
+  "published": true,
+  "dimension": {
+    "rows": 3,
+    "cols": 3
+  },
+  "nextLevel": "2.16",
+  "__v": 6,
+  "solutions": {
+    "medium": 10,
+    "best": 7
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": "0",
+        "y": "1"
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": "1"
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": "0",
+        "y": "2"
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": "1"
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": "1",
+        "y": "2"
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": "1"
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": "2",
+        "y": "2"
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": "1"
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": "2",
+        "y": "1"
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": "1"
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": "2",
+        "y": "0"
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": "1"
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": "1",
+        "y": "0"
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": "1"
+      }
+    }
+  ]
+}

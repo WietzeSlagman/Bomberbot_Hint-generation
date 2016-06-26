@@ -1,0 +1,101 @@
+{
+  "_id": 1109,
+  "tiles": "0,0,0,0,0;0,0,0,0,0;0,0,04,0,0;0,0,04,0,0;0,0,04,04,04",
+  "posPlayer": {
+    "y": 1,
+    "x": 2
+  },
+  "published": true,
+  "dimension": {
+    "cols": 5,
+    "rows": 5
+  },
+  "nextLevel": "1.04",
+  "__v": 13,
+  "solutions": {
+    "medium": 10,
+    "best": 5
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "messages": [
+        {
+          "message": {
+            "fi": "Sinun tehtäväsi on kerätä eri tasojen tähdet mahdollisimman lyhyillä ohjeilla!",
+            "en": "In each level your goal is to order your robot to reach the stars in as few steps as possible.",
+            "nl": "Het doel in elk level is om de robot de sterren te laten pakken in zo min mogelijk stappen.",
+            "es": "En cada nivel tu objetivo es programar a tu robot para que alcance la estrella en el menor número de pasos posible"
+          },
+          "character": {
+            "avatar": "/img/robots/bot_0_face.png",
+            "name": "Andrew"
+          }
+        }
+      ],
+      "autoOpen": true,
+      "trigger": "showMessage",
+      "type": "intro"
+    },
+    {
+      "achieved": {
+        "value": "1",
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": "4",
+        "x": "2"
+      },
+      "type": "reachCell"
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": "2",
+        "y": "3"
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": "1"
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": "3",
+        "y": "4"
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": "1"
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": "4",
+        "y": "4"
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": "1"
+      }
+    },
+    {
+      "achieved": {
+        "value": "1",
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": "2",
+        "x": "2"
+      },
+      "type": "reachCell"
+    }
+  ]
+}

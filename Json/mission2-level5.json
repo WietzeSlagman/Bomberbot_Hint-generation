@@ -1,0 +1,50 @@
+{
+  "_id": 1122,
+  "tiles": "0,0,0,0,0,0,0;0,02,0,02,01,02,0;0,0,01,01,01,01,0;0,02,01,02,01,02,0;0,01,01,01,04,01,0;0,02,01,02,0,02,0;0,0,0,0,0,0,0",
+  "posPlayer": {
+    "x": 0,
+    "y": 0
+  },
+  "hammer": true,
+  "published": true,
+  "dimension": {
+    "cols": 7,
+    "rows": 7
+  },
+  "nextLevel": "1.17",
+  "__v": 3,
+  "description": "find the way",
+  "name": "level 16",
+  "solutions": {
+    "medium": 15,
+    "best": 12
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "trigger": "endLevel",
+      "cell": {
+        "y": 4,
+        "x": 4
+      },
+      "type": "reachCell"
+    },
+    {
+      "hints": [
+        {
+          "character": {
+            "name": "Andrew",
+            "avatar": "/img/robots/bot_0_face.png"
+          },
+          "message": {
+            "es": "Go around the blocks!",
+            "fi": "Kierrä palikat!",
+            "nl": "Loop om de blokken heen!",
+            "en": "Go around the blocks!"
+          }
+        }
+      ],
+      "type": "hints"
+    }
+  ]
+}

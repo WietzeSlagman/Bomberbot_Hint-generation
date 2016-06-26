@@ -1,0 +1,45 @@
+{
+  "_id": 9312,
+  "name": "sample-9312",
+  "description": "Solve the maze",
+  "tiles": "a,a,a,a,a,a4",
+  "posPlayer": {
+    "x": 0,
+    "y": 0
+  },
+  "dirPlayer": "down",
+  "controls": true,
+  "hammer": false,
+  "magic": false,
+  "crud": true,
+  "loops": false,
+  "programType": "simple",
+  "directions": false,
+  "conditions": false,
+  "published": true,
+  "dimension": {
+    "cols": 6,
+    "rows": 1
+  },
+  "nextLevel": "random",
+  "__v": 1,
+  "solutions": {
+    "medium": 7,
+    "best": 5
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 0,
+        "x": 5
+      },
+      "type": "reachCell"
+    }
+  ]
+}

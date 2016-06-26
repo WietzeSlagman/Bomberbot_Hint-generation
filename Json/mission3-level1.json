@@ -1,0 +1,68 @@
+{
+  "_id": 1310,
+  "name": "world 2-01",
+  "tiles": "a,a,a,a,a,a4",
+  "posPlayer": {
+    "y": 0,
+    "x": 0
+  },
+  "hammer": false,
+  "loops": true,
+  "published": true,
+  "dimension": {
+    "cols": 6,
+    "rows": 1
+  },
+  "nextLevel": "2.02",
+  "__v": 27,
+  "solutions": {
+    "medium": 5,
+    "best": 3
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "trigger": "endLevel",
+      "cell": {
+        "y": "0",
+        "x": "5"
+      },
+      "type": "reachCell"
+    },
+    {
+      "trigger": "showMessage",
+      "type": "intro",
+      "messages": [
+        {
+          "message": {
+            "es": "Congratulations! You have unlocked the new LOOP power @loop ! Use it for repetitions!",
+            "fi": "Onnittelut! Olet saanut käyttöösi uuden Toistorakenne-taidon! Käytä sitä toistuvissa ohjeissa!",
+            "en": "Congratulations! You have unlocked the new LOOP power @loop ! Use it for repetitions!",
+            "nl": "Gefeliciteerd! Je hebt vanaf nu de nieuwe kracht @loop ! Gebruik deze LOOPS voor herhalingen! "
+          },
+          "character": {
+            "avatar": "/img/robots/bot_0_face.png",
+            "name": "Andrew"
+          }
+        }
+      ]
+    },
+    {
+      "hints": [
+        {
+          "character": {
+            "name": "Andrew",
+            "avatar": "/img/robots/bot_0_face.png"
+          },
+          "message": {
+            "fi": "@loop  @right @loopC",
+            "es": "@loop  @right @loopC",
+            "nl": "@loop  @right @loopC",
+            "en": "@loop  @right @loopC"
+          }
+        }
+      ],
+      "type": "hints"
+    }
+  ]
+}

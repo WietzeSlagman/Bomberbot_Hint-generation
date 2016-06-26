@@ -1,0 +1,16 @@
+JSON
+
+tile names
+0	normal tile
+01	yellow lego brick
+02	red lego brick
+03	ruby
+04	normal tile with star
+06	hammer
+a	grass tile
+ab	ice wall
+ac 	stone wall
+a4	grass tile with star
+b	ice tile
+c	stone ground (walkable)
+.	abyss

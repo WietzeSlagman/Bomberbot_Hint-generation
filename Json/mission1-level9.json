@@ -1,0 +1,105 @@
+{
+  "_id": 2099,
+  "name": "sample-2099",
+  "description": "Solve the maze",
+  "tiles": "ac,ac,ac,a,a,ac,ac,ac;ac,a,a4,a4,a4,a4,a3,ac;ac,ac,ac,a,a,ac,ac,ac",
+  "posPlayer": {
+    "x": 1,
+    "y": 1
+  },
+  "controls": true,
+  "hammer": true,
+  "loops": false,
+  "programType": "simple",
+  "directions": false,
+  "conditions": false,
+  "published": true,
+  "dimension": {
+    "cols": 8,
+    "rows": 3
+  },
+  "nextLevel": "random",
+  "__v": 9,
+  "solutions": {
+    "medium": 7,
+    "best": 5
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "type": "objectDestroyed",
+      "cell": {
+        "x": 6,
+        "y": 1
+      },
+      "trigger": ""
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 2,
+        "y": 1
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 3,
+        "y": 1
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 4,
+        "y": 1
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 5,
+        "y": 1
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "trigger": "showMessage",
+      "autoOpen": true,
+      "type": "intro",
+      "messages": [
+        {
+          "message": {
+            "es": "Look, a ruby! To finish this level, Bomberbot has to smash the ruby with the hammer @hammer !",
+            "fi": "Katso, rubiini! Käytä vasaraa ja murskaa rubiini tason ratkaisemiseksi!",
+            "en": "Look, a ruby! To finish this level, Bomberbot has to smash the ruby with the hammer @hammer !",
+            "nl": "Kijk, een robijn! Verzamel de sterren en verwoest de robijn door hem stuk te slaan met de hamer @hammer ."
+          },
+          "character": {
+            "avatar": "/img/robots/bot_0_face.png",
+            "name": "Andrew"
+          }
+        }
+      ]
+    }
+  ]
+}

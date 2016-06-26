@@ -1,0 +1,50 @@
+{
+  "_id": 1311,
+  "name": "world 2.2",
+  "tiles": "a,ac,ac,ac,ac;a,a,ac,ac,ac;ac,a,a,ac,ac;ac,ac,a,a,ac;ac,ac,ac,a,a4",
+  "posPlayer": {
+    "y": 0,
+    "x": 0
+  },
+  "hammer": false,
+  "loops": true,
+  "published": true,
+  "dimension": {
+    "cols": 5,
+    "rows": 5
+  },
+  "nextLevel": "2.03",
+  "__v": 4,
+  "solutions": {
+    "medium": 8,
+    "best": 4
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "trigger": "endlevel",
+      "cell": {
+        "y": 4,
+        "x": 4
+      },
+      "type": "reachCell"
+    },
+    {
+      "hints": [
+        {
+          "character": {
+            "name": "Andrew",
+            "avatar": "/img/robots/bot_0_face.png"
+          },
+          "message": {
+            "es": "Create a loop!",
+            "fi": "Luo toistorakenne!",
+            "nl": "Maak een loop! Bomberbot gaat telkens omlaag en naar rechts.",
+            "en": "Create a loop! Bomberbot goes down and to the right."
+          }
+        }
+      ],
+      "type": "hints"
+    }
+  ]
+}

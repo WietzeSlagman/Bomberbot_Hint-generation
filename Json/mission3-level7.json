@@ -1,0 +1,113 @@
+{
+  "_id": 6802,
+  "name": "sample-6802",
+  "description": "Solve the maze",
+  "tiles": ".,.,.,.,a;.,.,.,.,a3;.,.,.,.,a3;.,.,.,.,a3;.,.,.,.,a3;.,.,.,.,a3;a3,a3,a3,a3,a3",
+  "posPlayer": {
+    "y": 0,
+    "x": 4
+  },
+  "dirPlayer": "down",
+  "controls": true,
+  "hammer": true,
+  "magic": false,
+  "crud": true,
+  "loops": true,
+  "programType": "simple",
+  "directions": false,
+  "conditions": false,
+  "published": true,
+  "dimension": {
+    "cols": 5,
+    "rows": 7
+  },
+  "nextLevel": "random",
+  "__v": 2,
+  "solutions": {
+    "medium": 12,
+    "best": 8
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "trigger": "",
+      "cell": {
+        "y": 1,
+        "x": 4
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 2,
+        "x": 4
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 3,
+        "x": 4
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 5,
+        "x": 4
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 4,
+        "x": 4
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 6,
+        "x": 4
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 6,
+        "x": 3
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 6,
+        "x": 2
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 6,
+        "x": 1
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 6,
+        "x": 0
+      },
+      "type": "objectDestroyed"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "_id": 2116,
+  "name": "sample-2116",
+  "description": "Solve the maze",
+  "tiles": "a,a4,a4,ac;a4,a4,a4,ac;a4,a4,a4,a4;a4,a4,a4,ac;a4,a4,a4,ac",
+  "posPlayer": {
+    "y": 0,
+    "x": 0
+  },
+  "controls": true,
+  "hammer": false,
+  "loops": false,
+  "programType": "simple",
+  "directions": false,
+  "conditions": false,
+  "published": true,
+  "dimension": {
+    "cols": 4,
+    "rows": 5
+  },
+  "nextLevel": "random",
+  "user": "54bdfb3fa520548e7722bea7",
+  "__v": 4,
+  "solutions": {
+    "medium": 18,
+    "best": 15
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 1,
+        "y": 0
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 2,
+        "y": 0
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 3,
+        "y": 2
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 2,
+        "y": 4
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 1,
+        "y": 4
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 0,
+        "y": 4
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 0,
+        "y": 3
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 0,
+        "y": 2
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 0,
+        "y": 1
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 1,
+        "y": 2
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 1,
+        "y": 1
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 2,
+        "y": 1
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 2,
+        "y": 2
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 2,
+        "y": 3
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 1,
+        "y": 3
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "image": "http://www.bomberbot.com/hints/2116.png",
+      "type": "hints"
+    }
+  ]
+}

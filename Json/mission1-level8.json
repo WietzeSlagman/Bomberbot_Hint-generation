@@ -1,0 +1,52 @@
+{
+  "_id": 1117,
+  "tiles": "0;0;01;0;04",
+  "posPlayer": {
+    "x": 0,
+    "y": 0
+  },
+  "hammer": true,
+  "published": true,
+  "dimension": {
+    "cols": 1,
+    "rows": 5
+  },
+  "nextLevel": "1.12",
+  "__v": 23,
+  "description": "destroy the block!",
+  "name": "level 11",
+  "solutions": {
+    "medium": 9,
+    "best": 5
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": "0",
+        "y": "4"
+      },
+      "trigger": "endLevel"
+    },
+    {
+      "type": "intro",
+      "autoOpen": true,
+      "trigger": "showMessage",
+      "messages": [
+        {
+          "character": {
+            "name": "Andrew",
+            "avatar": "/img/robots/bot_0_face.png"
+          },
+          "message": {
+            "fi": "Onnittelut! Sinulla on käytössäsi @hammer ! Vasaran avulla pystyt murskaamaan keltaiset palikat ja rubiinit. Kokeile uutta taitoa heti!",
+            "es": "¡Felicitaciones!  has ganado el puño martillo @hammer . Con este poder tu robot puede destruir obstáculos.",
+            "nl": "Gefeliciteerd! Je hebt nu de HAMER kracht @hammer ! Gebruik de hamer om obstakels te verwoesten. Probeer het uit!",
+            "en": "Congratulations! You have the @hammer ! With this power your robot can smash yellow blocks and rubies. Try it out!"
+          }
+        }
+      ]
+    }
+  ]
+}

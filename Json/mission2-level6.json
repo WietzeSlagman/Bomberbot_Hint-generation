@@ -1,0 +1,49 @@
+{
+  "_id": 1121,
+  "tiles": "0,0,0,0,0,0;0,01,02,01,04,0;0,02,0,0,01,0;0,01,0,0,02,0;0,0,01,02,01,0;0,0,0,0,0,0",
+  "posPlayer": {
+    "x": 1,
+    "y": 4
+  },
+  "hammer": true,
+  "published": true,
+  "dimension": {
+    "cols": 6,
+    "rows": 6
+  },
+  "nextLevel": "1.16",
+  "__v": 3,
+  "name": "level 15",
+  "solutions": {
+    "medium": 12,
+    "best": 9
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "trigger": "endLevel",
+      "cell": {
+        "y": 1,
+        "x": 4
+      },
+      "type": "reachCell"
+    },
+    {
+      "hints": [
+        {
+          "character": {
+            "name": "Andrew",
+            "avatar": "/img/robots/bot_0_face.png"
+          },
+          "message": {
+            "es": "You use less instructions when you smash the yellow blocks!",
+            "fi": "Murskaa keltaiset palikat vähentääksesi ohjeiden määrää.",
+            "nl": "Je gebruikt minder instructies als je de gele blokken stuk slaat!",
+            "en": "You use less instructions when you smash the yellow blocks!"
+          }
+        }
+      ],
+      "type": "hints"
+    }
+  ]
+}

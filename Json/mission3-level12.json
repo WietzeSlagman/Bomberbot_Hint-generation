@@ -1,0 +1,153 @@
+{
+  "_id": 6801,
+  "name": "sample-6801",
+  "description": "Solve the maze",
+  "tiles": ".,.,.,.,a2,a4;.,.,.,a2,.,a4;.,.,a2,.,.,a4;.,a2,.,.,.,a4;a2,.,.,.,.,a4;a,a4,a4,a4,a4,a4",
+  "posPlayer": {
+    "y": 5,
+    "x": 0
+  },
+  "dirPlayer": "down",
+  "controls": true,
+  "hammer": true,
+  "magic": false,
+  "crud": true,
+  "loops": true,
+  "programType": "simple",
+  "directions": false,
+  "conditions": false,
+  "published": true,
+  "dimension": {
+    "cols": 6,
+    "rows": 6
+  },
+  "nextLevel": "random",
+  "__v": 6,
+  "solutions": {
+    "medium": 10,
+    "best": 6
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 5,
+        "y": 0
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 5,
+        "x": 1
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 5,
+        "x": 2
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 5,
+        "x": 3
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 5,
+        "x": 4
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 5,
+        "x": 5
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 4,
+        "x": 5
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 3,
+        "x": 5
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 2,
+        "x": 5
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 1,
+        "x": 5
+      },
+      "type": "reachCell"
+    }
+  ]
+}

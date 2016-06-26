@@ -1,0 +1,157 @@
+{
+  "_id": 6769,
+  "name": "sample-6769",
+  "description": "Solve the maze",
+  "tiles": "02,02,0,0,0,0;0,0,04,03,04,04;02,02,02,02,02,04;02,02,02,02,02,03;02,03,03,03,04,04;02,04,0,0,02,02",
+  "posPlayer": {
+    "y": 1,
+    "x": 1
+  },
+  "dirPlayer": "down",
+  "controls": true,
+  "hammer": true,
+  "magic": false,
+  "crud": true,
+  "loops": false,
+  "programType": "simple",
+  "directions": false,
+  "conditions": false,
+  "published": true,
+  "dimension": {
+    "cols": 6,
+    "rows": 6
+  },
+  "nextLevel": "random",
+  "__v": 9,
+  "solutions": {
+    "medium": 21,
+    "best": 17
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 2,
+        "y": 1
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 5,
+        "y": 1
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": 5,
+        "y": 2
+      },
+      "trigger": "collect",
+      "achieved": {
+        "type": "star",
+        "value": 1
+      }
+    },
+    {
+      "type": "objectDestroyed",
+      "cell": {
+        "x": 5,
+        "y": 3
+      },
+      "trigger": ""
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 1,
+        "x": 3
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 1,
+        "x": 4
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 4,
+        "x": 5
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 4,
+        "x": 4
+      },
+      "type": "reachCell"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 4,
+        "x": 3
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "trigger": "",
+      "cell": {
+        "y": 4,
+        "x": 2
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "type": "objectDestroyed",
+      "cell": {
+        "x": 1,
+        "y": 4
+      },
+      "trigger": ""
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 5,
+        "x": 1
+      },
+      "type": "reachCell"
+    }
+  ]
+}

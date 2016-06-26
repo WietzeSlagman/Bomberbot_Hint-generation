@@ -1,0 +1,51 @@
+{
+  "_id": 1119,
+  "tiles": "0,02,02,02,0;0,0,02,0,0;0,0,01,0,04;0,0,02,0,0;0,02,02,02,0",
+  "posPlayer": {
+    "x": 0,
+    "y": 0
+  },
+  "hammer": true,
+  "published": true,
+  "dimension": {
+    "cols": 5,
+    "rows": 5
+  },
+  "nextLevel": "1.14",
+  "__v": 6,
+  "description": "indestructible reds!",
+  "name": "level 13",
+  "solutions": {
+    "medium": 10,
+    "best": 7
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "type": "reachCell",
+      "cell": {
+        "x": "4",
+        "y": "2"
+      },
+      "trigger": "endLevel"
+    },
+    {
+      "type": "intro",
+      "trigger": "showMessage",
+      "messages": [
+        {
+          "character": {
+            "name": "Andrew",
+            "avatar": "/img/robots/bot_0_face.png"
+          },
+          "message": {
+            "fi": "Punaisia palikoita ei pysty murskaamaan. Vasara ei toimi niitä vastaan.",
+            "es": "Los ladrillos rojos son indestructibles. El martillo es inútil contra ellos.",
+            "nl": "Je kunt rode blokken niet verwoesten. Gele blokken wel!",
+            "en": "The red blocks are indestructible blocks. The hammer is useless against them."
+          }
+        }
+      ]
+    }
+  ]
+}

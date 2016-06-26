@@ -1,0 +1,229 @@
+{
+  "_id": 2105,
+  "name": "sample-2105",
+  "description": "Solve the maze",
+  "tiles": "a4,a4,a4,a,a;a4,a,a4,a,a;a4,a4,a3,a,a;a,a,a4,a,a4;a,a,a4,a,a4;a,a,a4,a4,a4",
+  "posPlayer": {
+    "y": 2,
+    "x": 4
+  },
+  "controls": true,
+  "hammer": true,
+  "loops": false,
+  "programType": "simple",
+  "directions": false,
+  "conditions": false,
+  "published": true,
+  "dimension": {
+    "cols": 5,
+    "rows": 6
+  },
+  "nextLevel": "random",
+  "__v": 10,
+  "solutions": {
+    "medium": 19,
+    "best": 16
+  },
+  "functions": 0,
+  "rules": [
+    {
+      "trigger": "",
+      "cell": {
+        "y": 2,
+        "x": 2
+      },
+      "type": "objectDestroyed"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 1,
+        "x": 2
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 0,
+        "x": 2
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 0,
+        "x": 0
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 0,
+        "x": 1
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 1,
+        "x": 0
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 2,
+        "x": 0
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 2,
+        "x": 1
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 3,
+        "x": 2
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 4,
+        "x": 2
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 4,
+        "x": 4
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 3,
+        "x": 4
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 5,
+        "x": 2
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 5,
+        "x": 3
+      },
+      "type": "reachCell"
+    },
+    {
+      "achieved": {
+        "value": 1,
+        "type": "star"
+      },
+      "trigger": "collect",
+      "cell": {
+        "y": 5,
+        "x": 4
+      },
+      "type": "reachCell"
+    },
+    {
+      "trigger": "showMessage",
+      "autoOpen": true,
+      "type": "intro",
+      "messages": [
+        {
+          "message": {
+            "es": "Catch all stars and smash the rubies to finish the levels!",
+            "fi": "Kerää kaikki tähdet ja murskaa kaikki rubiinit tasojen ratkaisemiseksi!",
+            "en": "Catch all stars and smash the rubies to finish the levels!",
+            "nl": "Vanaf nu moet je in elk level alle sterren verzamelen en alle robijnen verwoesten!"
+          },
+          "character": {
+            "avatar": "/img/robots/bot_0_face.png",
+            "name": "Andrew"
+          }
+        }
+      ]
+    },
+    {
+      "image": "http://www.bomberbot.com/hints/2105.png",
+      "type": "hints"
+    }
+  ]
+}
